@@ -20,9 +20,24 @@ namespace Class
              *    it's specified properties, and use it's methods to take certain actions.
              */
 
-            MobilePhone mobilePhone1 = new MobilePhone();
+            MobilePhone phone1 = new MobilePhone(); // using constructor method 1 (default)
+
+            /*
+             * Here phone1 is the object created with the MobilePhone class.
+             * Whenever we create an instance of an object we use the Constructor Method which is in this case 
+             * 'MobilePhone()'. 
+             */
+
+            MobilePhone phone2 = new MobilePhone("Toshiba"); 
+            // using constructor method 2
+            //phone2 has its DateTime set by default from blueprint (class-body) and has it's BrandName
+            //property set to "Toshiba" (from constructor method)
+
+            MobilePhone phone3 = new MobilePhone("Toshiba", "Stainless Steel", ConsoleColor.Red); 
+            // using constructor method 3
+
         }
-        
+
     }
 }
 
