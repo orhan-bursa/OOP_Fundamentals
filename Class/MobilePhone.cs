@@ -48,9 +48,9 @@ namespace Class
          */
         
         //FIELDS
-        private int _screenSize = 6; // Fields are values that can not be reached from outisde. Unless some for
-                                     // of connection provided, fields can only be changed inside the body of
-                                     // the class, hence the 'private' access modifier.
+        private int _screenSize = 6; // Fields are values that can not be reached from outisde. Unless some
+                                     // form of connection provided, fields can only be changed inside the body
+                                     // of the class, hence the 'private' access modifier. 
         public int ScreenSize // The only way to access a field from outside is through another property.(will
                               // be explained in depth in Encapsulation definition.)
         {
@@ -87,6 +87,5 @@ namespace Class
             CaseMaterial = caseMaterial;
             CaseColor = caseColor;
         }
-
     }
 }
