@@ -43,13 +43,16 @@ namespace Class
                 CaseMaterial = "Metal"                
             };
             // using constructor method 1 (default)
-            // This way we create an instance of the class with default constructor, at first, only determined properties are ScreenSize & CreateDate (from the blueprint). Then after the instance is created we can set values to them or change already existing values using this way.
+            // This way we create an instance of the class with default constructor, at first, only determined
+            // properties are ScreenSize & CreateDate (from the blueprint). Then after the instance is created
+            // we can set values to them or change already existing values using this way.
             // Since we did not assign BrandName a public access modifier 
 
             MobilePhone phone5 = new MobilePhone();
             phone5.CaseColor = ConsoleColor.Black;
             phone5.CaseMaterial = "Metal";
-            // instances of phone4 & phone5 have the same values attached to them. But they were set using a diffrent way. 
+            // instances of phone4 & phone5 have the same values attached to them. But they were set using a
+            // diffrent way. 
         }
 
     }
