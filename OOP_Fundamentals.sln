@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstraction1", "Abstraction
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance1", "Inheritance1\Inheritance1.csproj", "{D2711789-A6AB-4B54-BF31-3BFBE623861E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom_Exception", "Custom_Exception\Custom_Exception.csproj", "{B4242E02-ECBC-43FD-9530-BC9F8E54EB52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D2711789-A6AB-4B54-BF31-3BFBE623861E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2711789-A6AB-4B54-BF31-3BFBE623861E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2711789-A6AB-4B54-BF31-3BFBE623861E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4242E02-ECBC-43FD-9530-BC9F8E54EB52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4242E02-ECBC-43FD-9530-BC9F8E54EB52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4242E02-ECBC-43FD-9530-BC9F8E54EB52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4242E02-ECBC-43FD-9530-BC9F8E54EB52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
